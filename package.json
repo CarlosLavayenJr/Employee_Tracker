@@ -1,0 +1,26 @@
+{
+    "name": "employee-tracker",
+    "version": "1.0.0",
+    "description": "Developing a command-line application to manage a company's employee database.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CarlosLavayenJr/Employee_Tracker"
+    },
+    "keywords": [
+        "node.js",
+        "inquirer",
+        "mysql"
+    ],
+    "author": "Carlos Lavayen",
+    "license": "ISC",
+    "homepage": "https://github.com/CarlosLavayenJr/Employee_Tracker",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "inquirer": "^8.2.4",
+        "mysql2": "^3.10.0"
+    }
+}
